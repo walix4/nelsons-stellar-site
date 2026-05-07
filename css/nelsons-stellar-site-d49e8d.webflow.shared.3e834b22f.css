@@ -13543,3 +13543,35 @@ blockquote {
     grid-area: span 1 / span 2 / span 1 / span 2;
   }
 }
+
+/* --- custom overrides --- */
+.promotion-labels-wrapper { display: none !important; }
+
+.button,
+.button-wrapper,
+.primary-button,
+.primary-button-with-icon,
+.primary-fire-white-button,
+.secondary-fire-button,
+.secondary-button-wrap,
+.footer-button,
+.search-button,
+.search-close-button,
+.dont-shrink-button,
+.download-button-icon,
+.top-banner-button-wrapper,
+.white-button-wrap,
+.w-button,
+.w-nav-button,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+textarea,
+select {
+  border-radius: 0 !important;
+}
